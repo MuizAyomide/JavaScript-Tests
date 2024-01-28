@@ -9,6 +9,10 @@ html{
     font-family: Arial Rounded MT;
 }
 
+button{
+    cursor: pointer;
+}
+
 .container{
     background-color: #CEAEAE;
     width: 500px;
@@ -96,4 +100,106 @@ a{
     margin: 4px;
     font-size: 1.5rem;
     font-weight: 700;
+}
+
+/* --------------------------------------Sign Up------------------------------------ */
+
+.signup-container{
+    background-color: #CEAEAE;
+    width: 500px;
+    height: 100vh;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-container h1{
+    font-size: 4rem;
+    color: #000000;
+    text-align: center;
+}
+
+.signup-container form input{
+    width: 400px;
+    height: 50px;
+    font-size: 1.3rem;
+    padding: 10px 10px;
+    border: 1px solid #A8A3A3;
+}
+
+.signup-container form h3{
+    font-size: 1.3rem;
+    padding: 8px;
+}
+
+ .fPass{
+    text-decoration: none;
+    color: #F52441;
+    font-size: 1.3rem;
+}
+
+.signup-btn button{
+    background: #F52441;
+    border: none;
+    color: #fff;
+    width: 240px;
+    height: 70px;
+    margin: 4px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+/* ----------------------------Forgot Password---------------------- */
+.forgotPassword{
+    background-color: #CEAEAE;
+    width: 500px;
+    height: 100vh;
+    margin: 0px auto;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.forgotPassword h1{
+    font-size: 2rem;
+
+}
+
+/* ------------------- Home Page ---------------------------- */
+
+.home{
+    background-color: #CEAEAE;
+    width: 500px;
+    height: 100vh;
+    margin: 0px auto;
+    padding: 20px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.home h1{
+    font-size: 2rem;
+}
+
+.box-container{
+    display: flex;
+    gap: 30px;
+    order: 2;
+    flex-wrap: wrap;
+    margin: ;
+}
+
+.box-container .box1 img{
+    width: 150px;
+    height: 150px;
+    display: block;
 }
