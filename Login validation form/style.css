@@ -195,7 +195,7 @@ a{
     gap: 30px;
     order: 2;
     flex-wrap: wrap;
-    margin: ;
+    /* margin: ; */
 }
 
 .box-container .box1 img{
